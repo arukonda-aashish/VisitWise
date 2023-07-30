@@ -1,21 +1,21 @@
 # QR Ticket Booking System for Monuments and Museums
 
-![QR Ticket Booking](https://example.com/qr-ticket-booking.png)
+
 
 ## Table of Contents
-1. [Introduction](#introduction)
-2. [Features](#features)
-3. [Prerequisites](#prerequisites)
-4. [Installation](#installation)
-5. [Configuration](#configuration)
-6. [Usage](#usage)
-7. [User Management](#user-management)
-8. [Role Management](#role-management)
-9. [Museum/Monument Management](#museum-monument-management)
-10. [Ticket Management](#ticket-management)
-11. [Visitors Management](#visitors-management)
-12. [Contributing](#contributing)
-13. [License](#license)
+1. Introduction
+2. Features
+3. Prerequisites
+4. Installation
+5. Configuration
+6. Usage
+7. User Management
+8. Role Management
+9. Museum/Monument Management
+10. Ticket Management
+11. Visitors Management
+12. Contributing
+13. License
 
 ## Introduction
 
@@ -46,6 +46,75 @@ Before running the application, ensure the following dependencies are installed:
 
 1. Clone the repository from GitHub:
 
-```bash
-git clone https://github.com/your-username/qr-ticket-booking.git
+
+## Installation
+
+1. Clone the repository from GitHub:
+
+git clone https://github.com/your-username/visitWise.git
+
+2. Install the required Node.js packages:
+
+cd visitWise
+npm install
+
+3. Set up MongoDB and create a new database for the application.
+
+## Configuration
+
+1. Create a `.env` file in the root directory of the project.
+
+2. Define the following environment variables in the `.env` file:
+
+PORT=3000
+MONGODB_URI=mongodb://localhost:27017/your-database-name
+SECRET_KEY=your-secret-key
+
+## Usage
+
+1. Start the application:
+
+npm start
+
+2. Access the application in your web browser at `http://localhost:3000`.
+
+## User Management
+
+- Access the application as an admin.
+- Navigate to the User Management section to create, view, update, and delete user accounts.
+
+## Role Management
+
+- As an admin, access the Role Management section.
+- Create and manage different roles with specific permissions.
+
+## Museum/Monument Management
+
+- Log in as an admin.
+- Visit the Museum/Monument Management section.
+- Add, edit, or delete museums and monuments along with their details.
+
+## Ticket Management
+
+- Users (visitors) can access the Ticket Management section.
+- Select a museum or monument, choose the date and number of tickets, and proceed to book.
+- Each booking will receive a unique QR code.
+
+## Visitors Management
+
+- Admin can view the list of visitors and their respective ticket bookings.
+
+## Contributing
+
+We welcome contributions to improve this QR Ticket Booking System. Feel free to create pull requests or report issues on our GitHub repository.
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+
+---
+
+We hope you find our QR Ticket Booking System useful! If you have any questions or need further assistance, please don't hesitate to contact us. Happy coding!
+
 
